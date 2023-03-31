@@ -1,0 +1,95 @@
+{
+    "productos": [
+        {
+            "nombre": "Galletas",
+            "cantidad": 1,
+            "habitual": true,
+            "adquirido": true,
+            "supermercados": [
+                {
+                    "nombre": "Alcampo",
+                    "oferta": true,
+                    "vigencia": "2024/01/06",
+                    "unidad_medida": "gramos",
+                    "precio":1.50                    
+                },
+                {
+                    "nombre": "Dia",
+                    "oferta": false,
+                    "vigencia": null,
+                    "unidad_medida": "gramos",
+                    "precio":1.90                          
+                },
+                {
+                    "nombre": "Ahorramas",
+                    "oferta": true,
+                    "vigencia": "2023/12/06",
+                    "unidad_medida": "gramos",
+                    "precio":1.20                          
+                }
+            ]
+
+        },
+        {
+            "nombre": "Yogurt",
+            "cantidad": 3,
+            "habitual": false,
+            "adquirido": false,
+            "supermercados": [
+                {
+                    "nombre": "Alcampo",
+                    "oferta": true,
+                    "vigencia": "2023/03/31",
+                    "unidad_medida": "litros",
+                    "precio":1.99                    
+                },
+                {
+                    "nombre": "Mercadona",
+                    "oferta": true,
+                    "vigencia": "2023/04/06",
+                    "unidad_medida": "litros",
+                    "precio":1.95                          
+                },
+                {
+                    "nombre": "Ahorramas",
+                    "oferta": false,
+                    "vigencia": null,
+                    "unidad_medida": "litros",
+                    "precio":2                         
+                }
+            ]
+
+        },
+        {
+            "nombre": "Panela",
+            "cantidad": 1,
+            "habitual": false,
+            "adquirido": true,
+            "supermercados": [
+                {
+                    "nombre": "Alcampo",
+                    "oferta": false,
+                    "vigencia": null,
+                    "unidad_medida": "gramos",
+                    "precio":3.99                   
+                },
+                {
+                    "nombre": "Dia",
+                    "oferta": true,
+                    "vigencia": "2023/05/08",
+                    "unidad_medida": "gramos",
+                    "precio":2.50                          
+                },
+                {
+                    "nombre": "Hipercor",
+                    "oferta": false,
+                    "vigencia": null,
+                    "unidad_medida": "litros",
+                    "precio":3.99                         
+                }
+            ]
+           
+        }
+    
+    ]
+}

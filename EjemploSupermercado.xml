@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<supermercados>
+    <supermercado nombre='Alcampo'>
+        <direccion>Km. 34, A-2</direccion>
+        <geolocalizacion>
+            <latitud>40.50224053952324</latitud>
+            <longitud>-3.3326832443049486</longitud>
+        </geolocalizacion>
+        <productos>
+            <producto nombre='Galletas' oferta='true' habitual='true'>
+                <unidades>1</unidades>
+                <unidad_medida>gramos</unidad_medida>
+                <precio>1.50</precio>
+                <adquirido>true</adquirido>
+                <vigencia>2024-01-06</vigencia>
+            </producto>
+            <producto nombre='Yogurt' oferta='true' habitual='false'>
+                <unidades>1</unidades>
+                <unidad_medida>litro</unidad_medida>
+                <precio>2</precio>
+                <adquirido>false</adquirido>
+                <vigencia>2023-12-30</vigencia>
+            </producto>
+            <producto nombre='Panela' oferta='false' habitual='false'>
+                <unidades>1</unidades>
+                <unidad_medida>gramos</unidad_medida>
+                <precio>3.99</precio>
+                <adquirido>true</adquirido>
+                <vigencia></vigencia>
+            </producto>            
+        </productos>
+    </supermercado>
+</supermercados>
